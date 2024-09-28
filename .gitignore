@@ -1,0 +1,79 @@
+# Python-related
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# FastAPI-specific
+instance/
+app.db
+*.log
+
+# SQLAlchemy & Alembic
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/*.py[cod]
+
+# Postgres-related
+*.pgsql
+*.db
+*.sql
+
+# alembic migrations environment
+alembic.ini
+alembic/env.py
+alembic/script.py.mako
+
+# dotenv
+.env
+.env.*
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# MacOS files
+*.DS_Store
+
+# Local development
+/local/
